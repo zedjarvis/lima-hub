@@ -2,12 +2,13 @@
 </script>
 
 <template lang="pug">
-VAppBar
-  VAppBarTitle Ukulima.Hub
+//- Header
+TheHeader
 
+//- Main body
 VMain
   RouterView
 
-VFooter
-  p Ukulima.Hub
+//- Footer
+TheFooter
 </template>
